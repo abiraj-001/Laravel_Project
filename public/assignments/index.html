@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abiraj</title>
+    <link rel="shortcut icon" href="assets/img/abi.jfif" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+</head>
+<style>
+    body {
+        background-image: url("../assets/img/backgrounf.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .anker {
+        text-decoration: none;
+    }
+
+    .font {
+        font-size: 35px;
+    }
+
+    .navbg {
+        background: #FC5C7D;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #6A82FB, #FC5C7D);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+        transition: 250ms;
+        box-shadow: 5px 10px white;
+    }
+
+    .footer {
+        margin-top: 215px;
+    }
+
+    #time {
+        font-size: 20px;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbg py-3">
+        <div class="container-fluid">
+            <img src="../assets/img/abi.jfif" alt="" class="rounded-circle" height="60px">
+            <a class="navbar-brand text-warning h1" href="#"><span class="font ms-2">ABIRAJ</span></a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white h5" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white h5" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item"
+                                    href="../assignments/excersice/index.html">Excersize</a></li>
+                            <li><a class="dropdown-item" href="../assignments/tasks/index.html">Tasks</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                           
+                           
+                        </ul>
+                    </li>
+                </ul>
+                <div class="me-auto mb-2 mb-lg-0 text-white" id="time">
+
+                </div>
+            </div>
+
+            <div>
+
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container ">
+        <div class="row mt-5">
+            <div class="col-6">
+                <div class="card h-100 border border-5 border-dark shadow-lg p-1 mb-5 bg-body rounded">
+                    <img src="../assets/img/exr.jpg" class="card-img-top" alt="..." height="400px" >
+                    <div class="card-body bg-dark">
+                        <h5 class="card-title text-center text-white h3  mt-5">Abiraj Fullstack Traniee</h5>
+                    </div>
+                    <div class="card-footer d-grid gap-2">
+                        <button class="btn btn-success">
+                            <a href="./excersice/index.html" class="anker"><span
+                                    class="h3 text-white"> Excercise</span></a>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card h-100 border border-5 border-dark shadow-lg p-1 mb-5 bg-body rounded">
+                    <img src="../assets/img/task.jpg" class="card-img-top" alt="..." height="400px">
+                    <div class="card-body bg-dark">
+                        <h5 class="card-title text-center text-white h3 mt-5">Abiraj Fullstack Traniee</h5>
+                    </div>
+                    <div class="card-footer d-grid gap-2">
+                        <button class="btn btn-success">
+                            <a href="./tasks/index.html" class="anker"><span
+                                class="h3 text-white"> Tasks</span></a>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer class="footer bg-dark p-2">
+        <marquee behavior="scroll" direction="left" scrollamount="25"><span class="text-white h3">I am Abiraj. My
+                details
+                are... mail : abirajabi1999@gmail.com & phone no : 8754754860 & role : full stack traniee company :
+                Netaxis
+                IT solution private limited</span></marquee>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
